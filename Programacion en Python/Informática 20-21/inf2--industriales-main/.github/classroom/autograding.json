@@ -1,0 +1,114 @@
+{
+  "tests": [
+    {
+      "name": "test_get_bb",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_lab2.py::test_get_bb",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 90,
+      "points": 2
+    },
+    {
+      "name": "test_draw_rect",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_lab2.py::test_draw_rect",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 90,
+      "points": 1
+    },
+    {
+      "name": "test_hl_rect",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_lab2.py::test_hl_rect",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 90,
+      "points": 1
+    },
+    {
+      "name": "test_find_bb",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_lab2.py::test_find_bb",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 90,
+      "points": 1
+    },
+    {
+      "name": "test_autocrop",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_lab2.py::test_autocrop",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 90,
+      "points": 1
+    },
+    {
+      "name": "test_strel",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_lab2.py::test_strel",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 90,
+      "points": 2
+    },
+    {
+      "name": "test_imerode",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_lab2.py::test_imerode",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 90,
+      "points": 2
+    },
+    {
+      "name": "test_imdilate",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_lab2.py::test_imdilate",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 90,
+      "points": 2
+    },
+    {
+      "name": "test_get_mask",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_lab2.py::test_get_mask",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 90,
+      "points": 1
+    },
+    {
+      "name": "test_hl_objects",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_lab2.py::test_hl_objects",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 90,
+      "points": 1
+    },
+    {
+      "name": "test_autotransp",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_lab2.py::test_autotransp",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 90,
+      "points": 1
+    }
+  ]
+}

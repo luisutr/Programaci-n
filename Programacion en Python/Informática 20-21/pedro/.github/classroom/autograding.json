@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "TestBasic",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -m basic",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "TestHard",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -m hard",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}

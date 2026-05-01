@@ -1,0 +1,18 @@
+Pasar las pruebas
+-----------------
+
+
+Hago los ejercicios en colba, idel, pycharm .... 
+"Intento" sacar del test_lab las pruebas de los ejercicios y se los paso como print()
+Cuando quiera ir pasado las pruebas del test, si no tengo todos los ejercicios "podéis"
+elimiar de test_lab las pruebas de los ejercicios que no tengáis para que no os muestre esos errores. 
+Descargais de colab... el archivo .py ( Ojo quitar todos los prints de los ejercicios antes de pasar las pruebas)
+Recomiendo hacer una copia de los archivos originales y dejarlos fuera de esa carpeta. 
+Colocamos el archivo en la carpeta donde esta tanto el readme como el test_lab y el pytest.ini
+con el nombre lab1.py
+Habiendo instalado el pytest segun indica en el README
+pasamos el pytest y si estan bien nos dara un mensaje en verde
+Si salen en rojo quiere decir que puede haber errores o fails 
+
+Errores --- lo mas probable es que no este encontrando la funcion 
+Fails --- encuentra la funcion pero no devuelve lo que se espera 
