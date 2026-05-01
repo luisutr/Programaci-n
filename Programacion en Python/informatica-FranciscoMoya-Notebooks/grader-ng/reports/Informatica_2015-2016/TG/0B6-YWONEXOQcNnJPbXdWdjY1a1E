@@ -1,0 +1,35 @@
+TRABAJO EN GRUPO
+  1.5 Descarga de archivos
+  2.0 Procesamiento XML
+  0.0 Generación de gráficas
+3.5 Corrección funcional
+  0.0 Errores de comunicación
+  0.0 Errores en datos y archivos
+0.0 Tratamiento de excepciones
+  0.5 Divide y vencerás
+  0.0 Diseño top-down
+  0.2 Código limpio
+0.7 Estructura del programa
+  0.0 Banco de pruebas
+0.0 Puntos extra
+4.2 TOTAL
+----------------------------------------------------------------------
+En Toledo solo descarga 44 municipios.  Para en la primera excepción.
+La gráfica no representa dato alguno.
+
+Máxima calificación posible: 11.0
+Total: 4.2
+.
+----------------------------------------------------------------------
+Ran 1 test in 866.553s
+
+OK
+---------------------------- MOSS report -----------------------------
+
+MOSS ha detectado coincidencias significativas con otras entregas. Consulta
+la siguiente URL para más detalles:
+
+http://moss.stanford.edu/results/772138692
+
+Comunica tus alegaciones por escrito mediante un mensaje en CampusVirtual al 
+equipo docente para que las tenga en cuenta en la evaluación.

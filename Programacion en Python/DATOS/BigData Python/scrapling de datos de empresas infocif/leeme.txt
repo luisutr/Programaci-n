@@ -1,0 +1,17 @@
+1)
+el scrapbyelo.py genera un txt con las url de todas y cada una 
+de las empresas que tiene el listado de infocif. 
+
+2)
+el scrapbyjj.py en un codigo que aplicado a cada url 
+del listado de empresas mediente un for, conseguiria leer
+el listado e ir sacando la información interesante 
+de cad empresa. 
+
+3) modificar este ultimo para que lo guarde en un csv
+que al abrirlo con excel podamos filtrar por las empresas que
+cumplan los terminos que queramos. 
+Así elegir los objetivos. 
+
+
+

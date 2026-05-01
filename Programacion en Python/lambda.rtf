@@ -1,0 +1,180 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Roman;\f1\froman\fcharset0 Times-Bold;\f2\fmodern\fcharset0 Courier-Bold;
+\f3\fmodern\fcharset0 Courier;\f4\froman\fcharset0 Times-Italic;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \'a1Claro! Aqu\'ed tienes tres funciones sencillas de Python, una sin condiciones, otra con una condici\'f3n, y otra un poco m\'e1s compleja, seguidas de su equivalente en funci\'f3n 
+\f1\b lambda
+\f0\b0  para que practiques la conversi\'f3n:\
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f1\b\fs36 \cf0 1. Funci\'f3n Simple (Sin Condiciones)\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b0\fs24 \cf0 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b \cf0 Objetivo:
+\f0\b0  Calcular el triple de un n\'famero sum\'e1ndole 5.\
+\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f1\b\fs28 \cf0 Funci\'f3n 
+\f2\fs30\fsmilli15210 def
+\f1\fs28  tradicional:\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b0\fs24 \cf0 \
+\pard\pardeftab720\partightenfactor0
+\cf0 Python\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 def calcular_operacion_simple(x):\
+    """Calcula 3*x + 5."""\
+    return 3 * x + 5\
+\
+# Ejemplo de uso:\
+# resultado = calcular_operacion_simple(10) # 35\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs24 \cf0 \
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f1\b\fs28 \cf0 Funci\'f3n Lambda equivalente:\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b0\fs24 \cf0 \
+\pard\pardeftab720\partightenfactor0
+\cf0 Python\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 operacion_simple_lambda = lambda x: 3 * x + 5\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf0 \
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f1\b\fs36 \cf0 2. Funci\'f3n con Condici\'f3n (If/Else Ternario)\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b0\fs24 \cf0 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b \cf0 Objetivo:
+\f0\b0  Devolver "Par" o "Impar" seg\'fan si el n\'famero de entrada es divisible por 2.\
+\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f1\b\fs28 \cf0 Funci\'f3n 
+\f2\fs30\fsmilli15210 def
+\f1\fs28  tradicional:\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b0\fs24 \cf0 \
+\pard\pardeftab720\partightenfactor0
+\cf0 Python\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 def verificar_paridad(numero):\
+    """Devuelve 'Par' si el n\'famero es par, 'Impar' si es impar."""\
+    if numero % 2 == 0:\
+        return "Par"\
+    else:\
+        return "Impar"\
+\
+# Ejemplo de uso:\
+# resultado = verificar_paridad(7) # 'Impar'\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs24 \cf0 \
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f1\b\fs28 \cf0 Funci\'f3n Lambda equivalente:\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b0\fs24 \cf0 \
+Para la condici\'f3n, se usa el 
+\f1\b operador ternario
+\f0\b0  (
+\f3\fs26 valor_si_verdadero if condicion else valor_si_falso
+\f0\fs24 ).\
+\pard\pardeftab720\partightenfactor0
+\cf0 Python\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 paridad_lambda = lambda numero: "Par" if numero % 2 == 0 else "Impar"\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf0 \
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f1\b\fs36 \cf0 3. Funci\'f3n M\'e1s Compleja (Con Multiples Condicionales/Operaciones)\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b0\fs24 \cf0 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b \cf0 Objetivo:
+\f0\b0  Calcular un bono basado en las ventas. Si las ventas son menores a 1000, el bono es el 5% de las ventas. Si son 1000 o m\'e1s, el bono es el 10% de las ventas.\
+\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f1\b\fs28 \cf0 Funci\'f3n 
+\f2\fs30\fsmilli15210 def
+\f1\fs28  tradicional:\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b0\fs24 \cf0 \
+\pard\pardeftab720\partightenfactor0
+\cf0 Python\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 def calcular_bono(ventas):\
+    """Calcula un bono: 5% para ventas < 1000, 10% para ventas >= 1000."""\
+    if ventas < 1000:\
+        bono = ventas * 0.05\
+    else:\
+        bono = ventas * 0.10\
+    return round(bono, 2) # Redondea a 2 decimales para la moneda\
+\
+# Ejemplo de uso:\
+# resultado = calcular_bono(1500) # 150.0\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs24 \cf0 \
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f1\b\fs28 \cf0 Funci\'f3n Lambda equivalente:\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b0\fs24 \cf0 \
+Se utiliza el 
+\f1\b operador ternario anidado
+\f0\b0  para manejar la estructura condicional. Aunque las 
+\f4\i lambdas
+\f0\i0  son m\'e1s limpias para operaciones sencillas, demuestran su capacidad con anidaci\'f3n.\
+\pard\pardeftab720\partightenfactor0
+\cf0 Python\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 bono_lambda = lambda ventas: round(ventas * 0.05, 2) if ventas < 1000 else round(ventas * 0.10, 2)\
+}

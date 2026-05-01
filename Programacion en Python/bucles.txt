@@ -1,0 +1,56 @@
+FOR
+---
+
+
+bucles con cadenas de texto 
+---------------------------
+
+
+	valores
+	-------
+	variablecadena = "abc"
+	for mivariable in variablecadena:
+		if mivaribale != "a":
+			print(mivaribale)
+
+	>b
+	>c
+
+
+
+	posiciones
+	----------
+	variablecadena = "abc"
+	for posicion,valor in enumerate(variablecadena):
+		if valor != "a":
+			print(str(posicion)+":"+valor)
+
+	>1:b
+	>2:c
+
+
+bucles con listas
+-----------------
+
+
+	valores
+	-------
+	variablecadena = ["a","b","c"]
+	for mivariable in variablecadena:
+		if mivaribale != "a":
+			print(mivaribale)
+
+	>b
+	>c
+
+
+
+	posiciones
+	----------
+	variablecadena = ["a","b","c"]
+	for posicion,valor in enumerate(variablecadena):
+		if valor != "a":
+			print(str(posicion)+":"+valor)
+
+	>1:b
+	>2:c

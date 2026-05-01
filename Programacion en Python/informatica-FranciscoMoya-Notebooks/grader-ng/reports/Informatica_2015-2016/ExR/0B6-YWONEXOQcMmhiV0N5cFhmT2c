@@ -1,0 +1,92 @@
+EEEFEF
+======================================================================
+ERROR: test_butterworth (tests.Test_ExR)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/paco/git/informatica/grader-ng/tests/TExR.py", line 77, in test_butterworth
+    self.assertTrue(abs(butterworth(.9, .1, 1e3, 2e3)[1]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+======================================================================
+ERROR: test_frequent_browsers (tests.Test_ExR)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/paco/git/informatica/grader-ng/tests/TExR.py", line 60, in test_frequent_browsers
+    self.assertEqual(frequent_browsers('tests/access.log'), [])
+NameError: global name 'frequent_browsers' is not defined
+
+======================================================================
+ERROR: test_imprimir_hex (tests.Test_ExR)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/paco/git/informatica/grader-ng/tests/TExR.py", line 34, in test_imprimir_hex
+    self.assertEqual(self.std_output(imprimir_hex(1)),
+NameError: global name 'imprimir_hex' is not defined
+
+======================================================================
+ERROR: test_pi_leibniz (tests.Test_ExR)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/paco/git/informatica/grader-ng/tests/TExR.py", line 89, in test_pi_leibniz
+    self.assertTrue(abs(pi_leibniz(1) - 4.) < epsilon)
+NameError: global name 'pi_leibniz' is not defined
+
+======================================================================
+FAIL: test_mediana (tests.Test_ExR)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/paco/git/informatica/grader-ng/tests/TExR.py", line 94, in test_mediana
+    self.assertEqual(mediana(range(9)), 4)
+AssertionError: None != 4
+
+======================================================================
+FAIL: test_validar_tarjeta (tests.Test_ExR)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/paco/git/informatica/grader-ng/tests/TExR.py", line 101, in test_validar_tarjeta
+    self.assertFalse(validar_tarjeta('4578463073273940'))
+AssertionError: 9156926146547871 is not false
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.002s
+
+FAILED (errors=4, failures=2)
+
+----------------------------------------------------------------------
+
+butterworth:
+  Correccion funcional: 0.5
+  Tratamiento de errores: 0
+  Estructura: 0.3
+
+  Bien descompuesta top-down, pero definidas en el orden invero
+  (bottom-up).  La excepción a elevar en caso de valores inapropiados
+  no puede ser TypeError.  La función butterworth no devuelve nada.
+  La función `funcion' no sirve para nada.  Imprime cadenas en caso de
+  error. Expresiones incorrectas (1/2*n) no es 1./(2*n), la fórmula de
+  Kd está mal expresada, n debe ser un entero. No se recogen los
+  valores devueltos por las funciones. No entiende la asignación
+  múltiple de Python.
+  
+Total: 0.8
+
+----------------------------------------------------------------------
+
+mediana:
+  Correccion funcional: 0.5
+  Tratamiento de errores: 0
+  Estructura: 0.3
+
+  No devuelve nada, imprime un valor.  Solo imprime el número correcto
+  con número impar de elementos.
+
+
+validar_tarjeta:
+  Correccion funcional: 0.5
+  Tratamiento de errores: 0
+  Estructura: 0
+
+  Algoritmo totalmente incorrecto.  En la mayoría de los casos no
+  devuelve nada.  Un caso imposible (if i == 16:).
+
+Total PP: 1.3

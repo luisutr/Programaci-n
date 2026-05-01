@@ -1,0 +1,49 @@
+Las funciones se declaran con el tipo de variable que van a devolver o en su caso "void" si no devuelve nada
+y van encerradas entre llaves. 
+
+La tabulación no importa, porqué cada linea va cerrada con un ;
+PERO!!!! la tabulación es IMPORTANTE para que el ejercicio se puea leer con facilidad. 
+
+SIEMPRE ANIMO A DEJAR BIEN TABULADO LOS PROGRAMAS 
+
+
+Las variables siempre al crearlas se indica el tipo, y muy muy recomendado inicializarlas.
+Ej: 
+string cadena = ""
+
+
+No existen las mismas funciones en las que nos apoyamos en python:
+Ej: 
+
+- range()
+- len() 
+- split()
+- append()
+- index()
+- reversed()
+- abs()
+
+PERO si estan todas las conversiones de tipo
+float()   ---- a=(float)Valor  |  Siendo r un string -->  float f = r.toFloat()
+String()
+.toint()   --- a=(int)Valor
+...
+
+
+Las listas en C no son listas sino que son vectores. 
+DIFERENCIAS, en Python no importa que longitud tiene una lista para creala, podemos lista = []
+En C siempre que se declare un vector tenemos que decirle de que longitud va a ser y de que tipo. 
+int v[3] = [1,2,3]
+v[2]=5
+
+Sería tener en python la llena, ej: v = [1,2,3]  --> queremos modificar la posicion 2 con un valor 5 --> v[2] = 5
+--> [1,2,5]
+
+++++++++++++++++
+FUNCIONES DE C +
+++++++++++++++++
+
+9 elevado a 15  pow(9, 15)
+La función leerLinea() lee una línea hasta el carácter '\n'
+Serial.println("Salida por pantalla");
+

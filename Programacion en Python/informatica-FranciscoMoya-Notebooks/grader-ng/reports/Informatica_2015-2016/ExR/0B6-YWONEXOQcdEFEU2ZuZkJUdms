@@ -1,0 +1,101 @@
+EEEEEE
+======================================================================
+ERROR: test_butterworth (tests.Test_ExR)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/paco/git/informatica/grader-ng/tests/TExR.py", line 77, in test_butterworth
+    self.assertTrue(abs(butterworth(.9, .1, 1e3, 2e3)[1]
+NameError: global name 'butterworth' is not defined
+
+======================================================================
+ERROR: test_frequent_browsers (tests.Test_ExR)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/paco/git/informatica/grader-ng/tests/TExR.py", line 60, in test_frequent_browsers
+    self.assertEqual(frequent_browsers('tests/access.log'), [])
+NameError: global name 'frequent_browsers' is not defined
+
+======================================================================
+ERROR: test_imprimir_hex (tests.Test_ExR)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/paco/git/informatica/grader-ng/tests/TExR.py", line 34, in test_imprimir_hex
+    self.assertEqual(self.std_output(imprimir_hex(1)),
+NameError: global name 'imprimir_hex' is not defined
+
+======================================================================
+ERROR: test_mediana (tests.Test_ExR)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/paco/git/informatica/grader-ng/tests/TExR.py", line 94, in test_mediana
+    self.assertEqual(mediana(range(9)), 4)
+NameError: global name 'mediana' is not defined
+
+======================================================================
+ERROR: test_pi_leibniz (tests.Test_ExR)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/paco/git/informatica/grader-ng/tests/TExR.py", line 89, in test_pi_leibniz
+    self.assertTrue(abs(pi_leibniz(1) - 4.) < epsilon)
+NameError: global name 'pi_leibniz' is not defined
+
+======================================================================
+ERROR: test_validar_tarjeta (tests.Test_ExR)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/paco/git/informatica/grader-ng/tests/TExR.py", line 99, in test_validar_tarjeta
+    self.assertTrue(validar_tarjeta('4578463073273942'))
+NameError: global name 'validar_tarjeta' is not defined
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (errors=6)
+
+----------------------------------------------------------------------
+imprimir_hex:
+  Corrección funcional: 1.5
+  Tratamiento de errores: 0
+  Estructura: 0
+
+  Error de sintaxis (coding declaration). Mal la parte
+  inferior. Devuelve cadena en caso de error.  Permite llamar con n=0.
+  Ninguna abstracción, no entiende bucles for.
+
+butterworth:
+  Corrección funcional: 2.0
+  Tratamiento de errores: 0
+  Estructura: 0
+
+  Devuelve una cadena en caso de error. Las condiciones de error son
+  incorrectas (e.g. el factor de discriminación puede ser < 1. El
+  orden del filtro es un entero, no un real.
+
+Total: 3.5
+
+----------------------------------------------------------------------
+pi_leibniz:
+  Corrección funcional: 2.25
+  Tratamiento de errores: 0
+  Estructura: 0
+
+  Mucho más complejo de lo necesario. Calcula un término mas de lo que
+  se pide.
+
+mediana:
+  Corrección funcional: 2.0
+  Tratamiento de errores: 0
+  Estructura: 0
+
+  No funciona para número par de elementos (división entera). Imprime
+  lista. Innecesariamente complejo caso impar.
+
+validar_tarjeta:
+  Corrección funcional: 1.0
+  Tratamiento de errores: 0
+  Estructura: 0
+
+  No termina. Algoritmo completamente incorrecto.  Devuelve cadenas en
+  caso de error.
+
+Total PP: 5.25

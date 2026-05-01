@@ -1,0 +1,150 @@
+Lab 5. Listas, tuplas, conjuntos y diccionarios
+Listas, tuplas, conjuntos y diccionarios
+Resuelve todos los esta página comprobará que los ejercicios se han realizado correctamente y no permitirá entregas con errores sintácticos o con demasiados fallos de funcionamiento.
+
+1. Manipulación de secuencias
+Implementar una función splitN(L,n) que divide la secuencia L, que recibe como argumento, en tuplas de n elementos consecutivos. La función debe funcionar con cualquier tipo de secuencia, por ejemplo, con rangos. El valor devuelto puede ser cualquier iterable, incluyendo generadores.  El tipo de secuencia devuelto puede ser cualquier iterable, incluso un generador.
+
+2. Matriz de adyacencia
+Implementar una función matriz_adj(L) que devuelve la matriz de adyacencia correspondiente al grafo descrito por el parámetro L. Un grafo no es más que un conjunto de nodos conectado mediante un conjunto de arcos. Los nodos se representan como números enteros, los arcos se representan como tuplas con nodo origen y destino. El parámetro L simplemente contiene una lista de los arcos.
+
+Un grafo es dirigido cuando el arco (orig, dest) implica que el nodo orig está conectado (es adyacente) al nodo dest pero el nodo dest no se considera conectado (adyacente) al nodo orig. En este ejercicio se asume que el grafo es dirigido.
+
+La matriz de adyacencia para un grafo con nodos n0, n1, n2, ... nN-1 es una matriz cuadrada NxN tal que cada elemento es aij = 1 si existe el arco (ni, nj) en el grafo, y aij = 0 en caso contrario.
+
+La matriz de adyacencia devuelta debe implementarse como una tupla de N tuplas de N elementos, de manera que el elemento aij corresponda al elemento A[j][i] de la matriz. Los nodos n0, n1, n2, ... nN-1 corresponden a los enteros ordenados en orden numérico.
+
+Ejemplo.
+>>> matriz_adj([(2,3), (2,4), (4,5), (5,2)])
+((0,0,0,1), (1,0,0,0), (1,0,0,0), (0,0,1,0))
+3. Árboles binarios
+Implementar una función arbol_binario(L) que devuelve el árbol binario correspondiente a la lista de números que se indica en el argumento L.
+
+Un árbol binario es una tupla de tres elementos o bien None si el árbol está vacío. El primer elemento es un valor numérico n. El segundo elemento es un árbol binario con todos los números inferiores a n. El tercer elemento es un árbol con todos los números superiores a n.
+
+Ejemplo.
+>>> arbol_binario([3, 8, 1, 13, 5, 9])
+(3, (1, None, None), (8, (5, None, None), (13, (9, None, None), None)))
+4. Búsqueda en árbol
+Implementar una función buscar(arbol, valor) que busca el valor indicado en el segundo argumento dentro del árbol binario pasado como primer argumento. Debe devolver True si el valor se encuentra en el árbol y False en caso contrario.
+
+5. Árbol a conjunto
+Implementar una función arbol_a_conjunto(A) que devuelve un conjunto con los elementos del árbol A.
+
+6. Mezcla de diccionarios
+Implementar una función mezcla(A,B) que devuelve un diccionario que mezcla los elementos de A y B. La función no debe alterar los diccionarios que se pasan como argumento. En caso de que una clave exista en los dos diccionarios, la clave del diccionario devuelto deberá estar asociada a una tupla con los dos valores.
+
+7. Búsqueda de ciclos
+Implementar una función hay_ciclo(G) que devuelve True si el grafo G contiene al menos un ciclo y False en caso contrario. El grafo se modela como una lista de arcos, como en el primer ejercicio.
+
+Un ciclo es una secuencia de arcos que tiene el mismo origen y destino.
+
+8. Conjugación
+Implementar una función presente_indicativo(verbo) que devuelve una lista con la conjugación en presente de indicativo del verbo que se pasa como argumento. Se asumen verbos regulares.
+
+Ejemplo.
+>>> presente_indicativo('cantar')
+['canto', 'cantas', 'canta', 'cantamos', 'cantáis', 'cantan']
+>>> presente_indicativo('temer')
+['temo', 'temes', 'teme', 'tememos', 'teméis', 'temen']
+>>> presente_indicativo('pulir')
+['pulo', 'pules', 'pule', 'pulimos', 'pulís', 'pulen']
+9. Cuartiles
+Implementar una función cuartiles(L) que devuelve los cuartiles de 25% (Q1), 50% (Q2), 75% (Q3) y el máximo (Q4) de la secuencia de números que se proporciona como argumento.
+
+Consulta esta página para una descripción del cálculo a realizar.
+
+10. Cambio de notación de RPN a notación algebraica
+Implementar una función rpn_to_algebraic(s) que recibe una cadena con una expresión algebraica en notación polaca inversa (RPN) y devuelve una cadena con la misma expresión en notación algebraica.
+
+La notación polaca inversa es utilizada en muchas calculadoras científicas porque hace innecesario el uso de paréntesis.  Consiste en escribir primero los argumentos y luego el operador.  Por ejemplo:
+
+Ejemplo.
+>>> rpn_to_algebraic('12 3 - 2 5 * +')
+'((12 - 3) + (2 * 5))'
+
+# Descomenta la siguiente línea y la última para ejecutar las pruebas
+# from unittest import TestCase, main
+
+class Test(TestCase):
+    def test_splitN(self):
+        self.assertEqual(list(splitN(range(6),3)), [(0,1,2),(3,4,5)])
+        self.assertEqual(list(splitN(range(6),2)), [(0,1),(2,3),(4,5)])
+        self.assertEqual(list(splitN(range(3),3)), [(0,1,2)])
+        self.assertEqual(list(splitN([],3)), [])
+
+    def test_matriz_adj(self):
+        self.assertEqual(matriz_adj([(2,3), (2,4), (4,5), (5,2)]),
+                         ((0,0,0,1), (1,0,0,0), (1,0,0,0), (0,0,1,0)))
+        self.assertEqual(matriz_adj([(5,3), (4,4)]),
+                         ((0,0,1), (0,1,0), (0,0,0)))
+        self.assertEqual(matriz_adj([(5,5), (4,4)]),
+                         ((1,0), (0,1)))
+        self.assertEqual(matriz_adj([(5,1), (4,2)]),
+                         ((0,0,0,1), (0,0,1,0), (0,0,0,0), (0,0,0,0)))
+
+    def test_arbol_binario(self):
+        self.assertEqual(arbol_binario([3, 8, 1, 13, 5, 9]),
+                         (3, (1, None, None), (8, (5, None, None), (13, (9, None, None), None))))
+        self.assertEqual(arbol_binario(range(5)),
+                         (0, None, (1, None, (2, None, (3, None, (4, None, None))))))
+        self.assertEqual(arbol_binario(list(reversed(range(5)))),
+                         (4, (3, (2, (1, (0, None, None), None), None), None), None))
+        self.assertEqual(arbol_binario([]), None)
+
+    def test_buscar(self):
+        self.assertTrue(buscar((3, (1, None, None), (8, (5, None, None), (13, (9, None, None), None))),
+                               13))
+        self.assertFalse(buscar((3, (1, None, None), (8, (5, None, None), (13, (9, None, None), None))),
+                                12))
+        self.assertTrue(buscar((4, (3, (2, (1, (0, None, None), None), None), None), None),
+                               0))
+        self.assertFalse(buscar(None, 0))
+
+    def test_arbol_a_conjunto(self):
+        self.assertEqual(arbol_a_conjunto(None), set())
+        self.assertEqual(arbol_a_conjunto((5,None,None)), {5})
+        self.assertEqual(arbol_a_conjunto((3, (1, None, None), (8, (5, None, None), (13, (9, None, None), None)))),
+                         {3,8,1,13,5,9})
+        self.assertEqual(arbol_a_conjunto((4, (3, (2, (1, (0, None, None), None), None), None), None)),
+                         {0,1,2,3,4})
+
+    def test_mezcla(self):dearbolalista
+        self.assertEqual(mezcla({'a':1}, {'b':2}), {'a':1,'b':2})
+        self.assertEqual(mezcla({'a':1,'e':2}, {'a':1,'b':2}), {'a':(1,1),'b':2,'e':2})
+        self.assertEqual(mezcla({}, {}), {})
+        self.assertEqual(mezcla({1:2,2:3,3:4}, {1:1,2:2,3:3}), {1:(2,1),2:(3,2),3:(4,3)})
+
+    def test_hay_ciclo(self):
+        self.assertTrue(hay_ciclo([(1,1)]))
+        self.assertTrue(hay_ciclo([(1,2),(3,4),(2,3),(4,1)]))
+        self.assertFalse(hay_ciclo([(1,2),(3,4),(2,3),(4,11)]))
+        self.assertFalse(hay_ciclo([(1,2),(3,4),(2,3),(3,4)]))
+
+    def test_conjugacion(self):
+        self.assertEqual(presente_indicativo('amar'),
+                         ['amo', 'amas', 'ama', 'amamos', 'amáis', 'aman'])
+        self.assertEqual(presente_indicativo('leer'),
+                         ['leo', 'lees', 'lee', 'leemos', 'leéis', 'leen'])
+        self.assertEqual(presente_indicativo('batir'),
+                         ['bato', 'bates', 'bate', 'batimos', 'batís', 'baten'])
+        self.assertEqual(presente_indicativo('ir'),
+                         ['o', 'es', 'e', 'imos', 'ís', 'en'])
+
+    def test_cuartiles(self):
+        self.assertEqual(cuartiles((63,34,60,30,45,32,56,40,21,37,54,33,28,53,19,45,28,52,24,29)),
+                         (28.25, 35.5, 52.75, 63))
+        self.assertEqual(cuartiles(range(10)), (1.75, 4.5, 7.25, 9))
+        self.assertEqual(cuartiles((1,2,3)), (1,2,3,3))
+        self.assertEqual(cuartiles((1,1,1)), (1,1,1,1))
+
+    def test_rpn_to_algebraic(self):
+        self.assertEqual(rpn_to_algebraic('12 3 - 2 5 * +'), '((12 - 3) + (2 * 5))')
+        self.assertEqual(rpn_to_algebraic('1 2 3 4 - - -'), '(1 - (2 - (3 - 4)))')
+        self.assertEqual(rpn_to_algebraic('1 2 - 3 - 4 -'), '(((1 - 2) - 3) - 4)')
+        self.assertEqual(rpn_to_algebraic('1'), '1')
+
+# Si usas Jupyter descomenta la última línea
+# Si usas IDLE, Python o PyCharm descomenta la penultima
+# main()
+# main(argv=['first-arg-is-ignored'], exit=False)

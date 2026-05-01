@@ -1,0 +1,14 @@
+__init__.py
+__init__.pyc
+__pycache__
+cliente.py
+comandos.py
+comprimir.py
+listado.txt
+listado2.txt
+mensaje.py
+mensaje.pyc
+sendfile
+servidor.py
+struc.py
+struc.pyc

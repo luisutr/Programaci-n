@@ -1,0 +1,102 @@
+EEFEFE
+======================================================================
+ERROR: test_butterworth (tests.Test_ExR)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/paco/git/informatica/grader-ng/tests/TExR.py", line 78, in test_butterworth
+    - 1156.0407465973783) < epsilon)
+TypeError: unsupported operand type(s) for -: 'str' and 'float'
+
+======================================================================
+ERROR: test_frequent_browsers (tests.Test_ExR)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/paco/git/informatica/grader-ng/tests/TExR.py", line 60, in test_frequent_browsers
+    self.assertEqual(frequent_browsers('tests/access.log'), [])
+NameError: global name 'frequent_browsers' is not defined
+
+======================================================================
+ERROR: test_mediana (tests.Test_ExR)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/paco/git/informatica/grader-ng/tests/TExR.py", line 94, in test_mediana
+    self.assertEqual(mediana(range(9)), 4)
+NameError: global name 'mediana' is not defined
+
+======================================================================
+ERROR: test_validar_tarjeta (tests.Test_ExR)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/paco/git/informatica/grader-ng/tests/TExR.py", line 99, in test_validar_tarjeta
+    self.assertTrue(validar_tarjeta('4578463073273942'))
+NameError: global name 'validar_tarjeta' is not defined
+
+======================================================================
+FAIL: test_imprimir_hex (tests.Test_ExR)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/paco/git/informatica/grader-ng/tests/TExR.py", line 37, in test_imprimir_hex
+    '\\_/'])
+AssertionError: Lists differ: [' _', '/  \\', '\\_/'] != [' _', '/ \\', '\\_/']
+
+First differing element 1:
+'/  \\'
+'/ \\'
+
+- [' _', '/  \\', '\\_/']
+?          -
+
++ [' _', '/ \\', '\\_/']
+
+======================================================================
+FAIL: test_pi_leibniz (tests.Test_ExR)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/paco/git/informatica/grader-ng/tests/TExR.py", line 89, in test_pi_leibniz
+    self.assertTrue(abs(pi_leibniz(1) - 4.) < epsilon)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.002s
+
+FAILED (errors=4, failures=2)
+
+
+----------------------------------------------------------------------
+
+imprimir_hex:
+  Corrección funcional: 0.5
+  Tratamiento de errores: 0
+  Estructura: 0.2
+
+  No entiende el bucle for:
+  for j in range(n):
+    if j >=1:
+      ...
+  Devuelve mensajes en caso de n<1.  Solo funciona para n=2.
+
+
+butterworth:
+  Corrección funcional: 2.0
+  Tratamiento de errores: 0
+  Estructura: 0.3
+
+  Devuelve una cadena en caso de error. Las condiciones de error son
+  incorrectas (e.g. el factor de discriminación puede ser <
+  1. Devolver cadenas en caso de error es una pésima estrategia.
+
+
+Total: 3.0
+
+----------------------------------------------------------------------
+
+pi_leibniz:
+  Corrección funcional: 2.0
+  Tratamiento de errores: 0.2
+  Estructura: 0.45
+
+  Algo más complejo de lo necesario pero casi correcto. Aproxima pi/4,
+  no pi. Faltaría programación defensiva (asserts).
+
+
+Total PP: 2.65

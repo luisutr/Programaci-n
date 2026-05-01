@@ -1,0 +1,306 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Bold;\f1\froman\fcharset0 Times-Roman;\f2\fnil\fcharset0 AppleColorEmoji;
+\f3\fmodern\fcharset0 Courier;\f4\froman\fcharset0 Times-Italic;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f0\b\fs28 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Ejercicios de Listas en Python (Nivel Intermedio)\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0\fs24 \cf0 \
+Estos problemas te retar\'e1n a combinar l\'f3gica de programaci\'f3n con los m\'e9todos de las listas. \'a1Mucha suerte! 
+\f2 \uc0\u55357 \u56960 
+\f1 \
+\
+\pard\pardeftab720\sa319\partightenfactor0
+
+\f0\b \cf0 1. Filtrado de Correo no Deseado\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0 \cf0 \
+Tienes una lista de correos electr\'f3nicos. Necesitas crear una nueva lista que contenga solo los correos que pertenecen a un dominio espec\'edfico (por ejemplo, "gmail.com") y, adem\'e1s, el primer correo de esa lista filtrada debe ser movido al final como correo "de revisi\'f3n".\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b \cf0 Enunciado:
+\f1\b0  Dada una lista 
+\f3\fs26 emails = ["usuario1@hotmail.com", "contacto@gmail.com", "soporte@miempresa.com", "ventas@gmail.com", "admin@gmail.com"]
+\f1\fs24 , genera una lista final que solo contenga los de "gmail.com", pero con el primer correo encontrado (
+\f3\fs26 "contacto@gmail.com"
+\f1\fs24 ) movido al final.\
+\pard\pardeftab720\partightenfactor0
+\cf0 Python\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 emails = ["usuario1@hotmail.com", "contacto@gmail.com", "soporte@miempresa.com", "ventas@gmail.com", "admin@gmail.com"]\
+# Tu c\'f3digo aqu\'ed\
+print(emails_filtrados) # Deber\'eda mostrar: ['ventas@gmail.com', 'admin@gmail.com', 'contacto@gmail.com']\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs24 \cf0 \
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 \
+\pard\pardeftab720\sa319\partightenfactor0
+
+\f0\b \cf0 2. Lista de Espera del Restaurante\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0 \cf0 \
+Gestionas la lista de espera de un restaurante. Cuando una mesa se libera, llamas a la primera persona de la lista. Si esa persona no responde despu\'e9s de un intento, se le mueve al final de la lista para darle la oportunidad al siguiente.\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b \cf0 Enunciado:
+\f1\b0  Dada la 
+\f3\fs26 lista_espera = ["Andrea", "Marcos", "Laura", "Jose"]
+\f1\fs24 , simula que "Andrea" no contesta. Mueve a "Andrea" al final de la lista.\
+\pard\pardeftab720\partightenfactor0
+\cf0 Python\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 lista_espera = ["Andrea", "Marcos", "Laura", "Jose"]\
+# Tu c\'f3digo aqu\'ed\
+print(lista_espera) # Deber\'eda mostrar: ['Marcos', 'Laura', 'Jose', 'Andrea']\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs24 \cf0 \
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 \
+\pard\pardeftab720\sa319\partightenfactor0
+
+\f0\b \cf0 3. Reemplazo de Elementos Defectuosos\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0 \cf0 \
+En una l\'ednea de producci\'f3n, tienes una lista de n\'fameros de serie. Los n\'fameros de serie que son 
+\f3\fs26 0
+\f1\fs24  se consideran defectuosos y deben ser eliminados. Por cada elemento defectuoso eliminado, debes a\'f1adir un 
+\f3\fs26 None
+\f1\fs24  al final de la lista para mantener un registro de cu\'e1ntos fallaron.\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b \cf0 Enunciado:
+\f1\b0  Dada la lista 
+\f3\fs26 numeros_serie = [101, 102, 0, 104, 0, 106]
+\f1\fs24 , procesa la lista para que no contenga ceros y tenga los 
+\f3\fs26 None
+\f1\fs24  correspondientes al final.\
+\pard\pardeftab720\partightenfactor0
+\cf0 Python\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 numeros_serie = [101, 102, 0, 104, 0, 106]\
+# Tu c\'f3digo aqu\'ed\
+print(numeros_serie) # Deber\'eda mostrar: [101, 102, 104, 106, None, None]\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs24 \cf0 \
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 \
+\pard\pardeftab720\sa319\partightenfactor0
+
+\f0\b \cf0 4. Pal\'edndromos\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0 \cf0 \
+Un pal\'edndromo es una palabra que se lee igual de izquierda a derecha que de derecha a izquierda (ej. "radar"). Necesitas una funci\'f3n que determine si una palabra es un pal\'edndromo. Para ello, una buena t\'e9cnica es comparar la palabra original con su versi\'f3n invertida.\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b \cf0 Enunciado:
+\f1\b0  Crea una funci\'f3n 
+\f3\fs26 es_palindromo(palabra)
+\f1\fs24  que devuelva 
+\f3\fs26 True
+\f1\fs24  si la palabra es un pal\'edndromo y 
+\f3\fs26 False
+\f1\fs24  si no lo es. 
+\f4\i Pista: convierte la palabra en una lista de caracteres para facilitar la manipulaci\'f3n
+\f1\i0 .\
+\pard\pardeftab720\partightenfactor0
+\cf0 Python\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 def es_palindromo(palabra):\
+  # Tu c\'f3digo aqu\'ed\
+\
+print(es_palindromo("radar"))  # Deber\'eda mostrar: True\
+print(es_palindromo("python")) # Deber\'eda mostrar: False\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs24 \cf0 \
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 \
+\pard\pardeftab720\sa319\partightenfactor0
+
+\f0\b \cf0 5. Fusi\'f3n y Eliminaci\'f3n de Duplicados\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0 \cf0 \
+Tienes dos listas de contactos (n\'fameros de tel\'e9fono). Necesitas unificarlas en una sola lista que no contenga ning\'fan n\'famero repetido y que, adem\'e1s, est\'e9 ordenada de menor a mayor.\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b \cf0 Enunciado:
+\f1\b0  Dadas 
+\f3\fs26 contactos_trabajo = [666112233, 677889900]
+\f1\fs24  y 
+\f3\fs26 contactos_personales = [677889900, 655443322, 666112233]
+\f1\fs24 , crea una lista final 
+\f3\fs26 contactos_unicos
+\f1\fs24  ordenada y sin duplicados.\
+\pard\pardeftab720\partightenfactor0
+\cf0 Python\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 contactos_trabajo = [666112233, 677889900]\
+contactos_personales = [677889900, 655443322, 666112233]\
+# Tu c\'f3digo aqu\'ed\
+print(contactos_unicos) # Deber\'eda mostrar: [655443322, 666112233, 677889900]\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs24 \cf0 \
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 \
+\pard\pardeftab720\sa319\partightenfactor0
+
+\f0\b \cf0 6. Desplazamiento Circular\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0 \cf0 \
+Est\'e1s implementando una animaci\'f3n simple. Tienes una lista de "frames" o estados y quieres mover el \'faltimo frame al principio de la lista, creando un efecto de rotaci\'f3n o ciclo.\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b \cf0 Enunciado:
+\f1\b0  Dada la lista 
+\f3\fs26 frames = [1, 2, 3, 4]
+\f1\fs24 , realiza una rotaci\'f3n hacia la derecha, de modo que el \'faltimo elemento se convierta en el primero.\
+\pard\pardeftab720\partightenfactor0
+\cf0 Python\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 frames = [1, 2, 3, 4]\
+# Tu c\'f3digo aqu\'ed\
+print(frames) # Deber\'eda mostrar: [4, 1, 2, 3]\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs24 \cf0 \
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 \
+\pard\pardeftab720\sa319\partightenfactor0
+
+\f0\b \cf0 7. Intercambio de Posiciones\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0 \cf0 \
+En un tablero de juego representado por una lista, necesitas que dos piezas intercambien sus posiciones. Sabes el valor de las piezas que quieres intercambiar, pero no necesariamente sus \'edndices.\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b \cf0 Enunciado:
+\f1\b0  Dada la lista 
+\f3\fs26 tablero = ["Torre", "Caballo", "Alfil", "Rey"]
+\f1\fs24 , escribe un c\'f3digo que intercambie las posiciones de 
+\f3\fs26 "Caballo"
+\f1\fs24  y 
+\f3\fs26 "Rey"
+\f1\fs24 .\
+\pard\pardeftab720\partightenfactor0
+\cf0 Python\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 tablero = ["Torre", "Caballo", "Alfil", "Rey"]\
+# Tu c\'f3digo aqu\'ed\
+print(tablero) # Deber\'eda mostrar: ['Torre', 'Rey', 'Alfil', 'Caballo']\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs24 \cf0 \
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 \
+\pard\pardeftab720\sa319\partightenfactor0
+
+\f0\b \cf0 8. Mediana de una Lista de N\'fameros\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0 \cf0 \
+La mediana es el valor que ocupa la posici\'f3n central en una lista de n\'fameros ordenada. Si la lista tiene un n\'famero par de elementos, la mediana es el promedio de los dos valores centrales.\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b \cf0 Enunciado:
+\f1\b0  Escribe una funci\'f3n que calcule la mediana de una lista de n\'fameros. La funci\'f3n deber\'e1 ordenar la lista primero para encontrar el valor central.\
+\pard\pardeftab720\partightenfactor0
+\cf0 Python\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 def calcular_mediana(numeros):\
+  # Tu c\'f3digo aqu\'ed\
+\
+lista1 = [7, 2, 10, 1, 5]\
+lista2 = [8, 2, 10, 4]\
+print(calcular_mediana(lista1)) # Deber\'eda mostrar: 5\
+print(calcular_mediana(lista2)) # Deber\'eda mostrar: 6.0 (el promedio de 4 y 8)\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs24 \cf0 \
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 \
+\pard\pardeftab720\sa319\partightenfactor0
+
+\f0\b \cf0 9. Aplanar una Lista de Listas\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0 \cf0 \
+Tienes una "lista de listas" (una matriz) y tu objetivo es convertirla en una \'fanica lista "plana" que contenga todos los elementos en orden.\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b \cf0 Enunciado:
+\f1\b0  Dada la 
+\f3\fs26 matriz = [[1, 2], [3, 4, 5], [6]]
+\f1\fs24 , crea una lista 
+\f3\fs26 plana
+\f1\fs24  que contenga todos los n\'fameros.\
+\pard\pardeftab720\partightenfactor0
+\cf0 Python\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 matriz = [[1, 2], [3, 4, 5], [6]]\
+# Tu c\'f3digo aqu\'ed\
+print(plana) # Deber\'eda mostrar: [1, 2, 3, 4, 5, 6]\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs24 \cf0 \
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 \
+\pard\pardeftab720\sa319\partightenfactor0
+
+\f0\b \cf0 10. \'daltimas Adquisiciones\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0 \cf0 \
+Tienes un cat\'e1logo de productos que siempre debe mostrar las \'faltimas 5 novedades. Cada vez que se a\'f1ade un nuevo producto, este debe ir al principio de la lista, y si la lista excede los 5 productos, el m\'e1s antiguo (el \'faltimo de la lista) debe ser eliminado.\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b \cf0 Enunciado:
+\f1\b0  Dada la lista 
+\f3\fs26 novedades = ["Producto A", "Producto B", "Producto C", "Producto D", "Producto E"]
+\f1\fs24 , a\'f1ade el 
+\f3\fs26 "Nuevo Producto"
+\f1\fs24  al inicio y aseg\'farate de que la lista siga teniendo solo 5 elementos.\
+\pard\pardeftab720\partightenfactor0
+\cf0 Python\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 novedades = ["Producto A", "Producto B", "Producto C", "Producto D", "Producto E"]\
+nuevo = "Nuevo Producto"\
+# Tu c\'f3digo aqu\'ed\
+print(novedades) # Deber\'eda mostrar: ['Nuevo Producto', 'Producto A', 'Producto B', 'Producto C', 'Producto D']\
+}

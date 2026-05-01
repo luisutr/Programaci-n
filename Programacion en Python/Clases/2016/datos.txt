@@ -1,0 +1,1442 @@
+                                <h2>Avaible In</h2>
+
+                <ul class="amenities">
+
+                
+
+                
+
+                <li>
+
+                <b>Turkey</b>&nbsp;&nbsp;<img src="http://www.selected-turkey-greece.com/templates/bootstrap2-responsive/assets/img/checkbox_true.png" alt="true" class="check" />
+
+                </li>
+
+                
+
+				
+
+				
+
+                
+
+                
+
+                <li>
+
+                <b>Greece</b>&nbsp;&nbsp;<img src="http://www.selected-turkey-greece.com/templates/bootstrap2-responsive/assets/img/checkbox_true.png" alt="true" class="check" />
+
+                </li>
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                </ul>
+
+                <br style="clear: both;" />
+
+                                
+
+                                
+
+                                <h2>Specifications</h2>
+
+                <ul class="amenities">
+
+                
+
+                
+
+				
+
+                <li>
+
+                 <b>Max. Passenger Capacity:</b>&nbsp;&nbsp;12&nbsp;
+
+                </li>
+
+                
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+                <li>
+
+                 <b>Length:</b>&nbsp;&nbsp;20&nbsp;mt
+
+                </li>
+
+                
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+                <li>
+
+                 <b>Beam:</b>&nbsp;&nbsp;5,6&nbsp;mt
+
+                </li>
+
+                
+
+				
+
+                
+
+                
+
+				
+
+                <li>
+
+                 <b>Hull Construction:</b>&nbsp;&nbsp;wood&nbsp;
+
+                </li>
+
+                
+
+				
+
+                
+
+                
+
+				
+
+                <li>
+
+                 <b>Superstructure:</b>&nbsp;&nbsp;wood&nbsp;
+
+                </li>
+
+                
+
+				
+
+                
+
+                </ul>
+
+                <br style="clear: both;" />
+
+                				
+
+				                <h2>Crew</h2>
+
+                <ul class="amenities">
+
+                
+
+                
+
+				
+
+                <li>
+
+                 <b>Captain:</b>&nbsp;&nbsp;1&nbsp;
+
+                </li>
+
+                
+
+				
+
+                
+
+                
+
+				
+
+                <li>
+
+                 <b>Cook:</b>&nbsp;&nbsp;1&nbsp;
+
+                </li>
+
+                
+
+				
+
+                
+
+                
+
+				
+
+                <li>
+
+                 <b>Sailor:</b>&nbsp;&nbsp;1&nbsp;
+
+                </li>
+
+                
+
+				
+
+                
+
+                </ul>
+
+                <br style="clear: both;" />
+
+                				
+
+				                <h2>Foreign Languages Spoken by at least one Crew member</h2>
+
+                <ul class="amenities">
+
+                
+
+                
+
+                <li>
+
+                <b>English</b>&nbsp;&nbsp;<img src="http://www.selected-turkey-greece.com/templates/bootstrap2-responsive/assets/img/checkbox_true.png" alt="true" class="check" />
+
+                </li>
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+                <li>
+
+                <b>Turkish</b>&nbsp;&nbsp;<img src="http://www.selected-turkey-greece.com/templates/bootstrap2-responsive/assets/img/checkbox_true.png" alt="true" class="check" />
+
+                </li>
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                </ul>
+
+                <br style="clear: both;" />
+
+                				
+
+				                <h2>Others</h2>
+
+                <ul class="amenities">
+
+                
+
+                
+
+				
+
+                <li>
+
+                 <b>Engine(s):</b>&nbsp;&nbsp;1 x 255&nbsp;hp
+
+                </li>
+
+                
+
+				
+
+                
+
+                
+
+				
+
+                <li>
+
+                 <b>Engine Type:</b>&nbsp;&nbsp;Volvo&nbsp;
+
+                </li>
+
+                
+
+				
+
+                
+
+                
+
+				
+
+                <li>
+
+                 <b>Fuel Capacity:</b>&nbsp;&nbsp;3000&nbsp;liters
+
+                </li>
+
+                
+
+				
+
+                
+
+                
+
+				
+
+                <li>
+
+                 <b>Water Capacity:</b>&nbsp;&nbsp;6000&nbsp;liters
+
+                </li>
+
+                
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+                <li>
+
+                 <b>Electricity:</b>&nbsp;&nbsp;12 + 24 + 220&nbsp;volt
+
+                </li>
+
+                
+
+				
+
+                
+
+                </ul>
+
+                <br style="clear: both;" />
+
+                				
+
+				                <h2>Cabins</h2>
+
+                <ul class="amenities">
+
+                
+
+                
+
+				
+
+                <li>
+
+                 <b>Cabins Total:</b>&nbsp;&nbsp;6&nbsp;
+
+                </li>
+
+                
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+                <li>
+
+                 <b>Standart Double Cabin(s):</b>&nbsp;&nbsp;4&nbsp;
+
+                </li>
+
+                
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+                <li>
+
+                 <b>Standart Triple Cabin(s):</b>&nbsp;&nbsp;2&nbsp;
+
+                </li>
+
+                
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+                <li>
+
+                 <b>Bathrooms:</b>&nbsp;&nbsp;6&nbsp;
+
+                </li>
+
+                
+
+				
+
+                
+
+                
+
+				
+
+                <li>
+
+                 <b>Interior Styling:</b>&nbsp;&nbsp;wood&nbsp;
+
+                </li>
+
+                
+
+				
+
+                
+
+                
+
+				
+
+                <li>
+
+                 <b>Air Condition:</b>&nbsp;&nbsp;6&nbsp;hrs/day
+
+                </li>
+
+                
+
+				
+
+                
+
+                </ul>
+
+                <br style="clear: both;" />
+
+                				
+
+				                <h2>Cabins Equipment</h2>
+
+                <ul class="amenities">
+
+                
+
+                
+
+                <li>
+
+                <b>Bedsheets</b>&nbsp;&nbsp;<img src="http://www.selected-turkey-greece.com/templates/bootstrap2-responsive/assets/img/checkbox_true.png" alt="true" class="check" />
+
+                </li>
+
+                
+
+				
+
+				
+
+                
+
+                
+
+                <li>
+
+                <b>Hand Towels</b>&nbsp;&nbsp;<img src="http://www.selected-turkey-greece.com/templates/bootstrap2-responsive/assets/img/checkbox_true.png" alt="true" class="check" />
+
+                </li>
+
+                
+
+				
+
+				
+
+                
+
+                
+
+                <li>
+
+                <b>Body Towels</b>&nbsp;&nbsp;<img src="http://www.selected-turkey-greece.com/templates/bootstrap2-responsive/assets/img/checkbox_true.png" alt="true" class="check" />
+
+                </li>
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+                <li>
+
+                <b>Hairdryer</b>&nbsp;&nbsp;<img src="http://www.selected-turkey-greece.com/templates/bootstrap2-responsive/assets/img/checkbox_true.png" alt="true" class="check" />
+
+                </li>
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                <li>
+
+                 <b>Toilets Type:</b>:&nbsp;&nbsp;House Flush
+
+                </li>
+
+                
+
+                
+
+                
+
+                <li>
+
+                <b>Shower Cabins</b>&nbsp;&nbsp;<img src="http://www.selected-turkey-greece.com/templates/bootstrap2-responsive/assets/img/checkbox_true.png" alt="true" class="check" />
+
+                </li>
+
+                
+
+				
+
+				
+
+                
+
+                
+
+                <li>
+
+                <b>Air Condition</b>&nbsp;&nbsp;<img src="http://www.selected-turkey-greece.com/templates/bootstrap2-responsive/assets/img/checkbox_true.png" alt="true" class="check" />
+
+                </li>
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+                <li>
+
+                 <b>Interior Styling:</b>&nbsp;&nbsp;wood&nbsp;
+
+                </li>
+
+                
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+                <li>
+
+                 <b>Remark:</b>&nbsp;&nbsp;NO shower cabins . The shower is at the toilet / lavabo section .&nbsp;
+
+                </li>
+
+                
+
+				
+
+                
+
+                </ul>
+
+                <br style="clear: both;" />
+
+                				
+
+				                <h2>Saloon Details</h2>
+
+                <ul class="amenities">
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+                <li>
+
+                <b>Table</b>&nbsp;&nbsp;<img src="http://www.selected-turkey-greece.com/templates/bootstrap2-responsive/assets/img/checkbox_true.png" alt="true" class="check" />
+
+                </li>
+
+                
+
+				
+
+				
+
+                
+
+                
+
+                <li>
+
+                <b>Chairs</b>&nbsp;&nbsp;<img src="http://www.selected-turkey-greece.com/templates/bootstrap2-responsive/assets/img/checkbox_true.png" alt="true" class="check" />
+
+                </li>
+
+                
+
+				
+
+				
+
+                
+
+                
+
+                <li>
+
+                <b>Sofa(s)</b>&nbsp;&nbsp;<img src="http://www.selected-turkey-greece.com/templates/bootstrap2-responsive/assets/img/checkbox_true.png" alt="true" class="check" />
+
+                </li>
+
+                
+
+				
+
+				
+
+                
+
+                
+
+                <li>
+
+                <b>Tv</b>&nbsp;&nbsp;<img src="http://www.selected-turkey-greece.com/templates/bootstrap2-responsive/assets/img/checkbox_true.png" alt="true" class="check" />
+
+                </li>
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                <li>
+
+                 <b>TV Programs:</b>:&nbsp;&nbsp;National
+
+                </li>
+
+                
+
+                
+
+                
+
+                <li>
+
+                <b>Dvd</b>&nbsp;&nbsp;<img src="http://www.selected-turkey-greece.com/templates/bootstrap2-responsive/assets/img/checkbox_true.png" alt="true" class="check" />
+
+                </li>
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+                <li>
+
+                <b>Music System</b>&nbsp;&nbsp;<img src="http://www.selected-turkey-greece.com/templates/bootstrap2-responsive/assets/img/checkbox_true.png" alt="true" class="check" />
+
+                </li>
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+                <li>
+
+                <b>Internet Connection</b>&nbsp;&nbsp;<img src="http://www.selected-turkey-greece.com/templates/bootstrap2-responsive/assets/img/checkbox_true.png" alt="true" class="check" />
+
+                </li>
+
+                
+
+				
+
+				
+
+                
+
+                
+
+                <li>
+
+                <b>Ice Maker</b>&nbsp;&nbsp;<img src="http://www.selected-turkey-greece.com/templates/bootstrap2-responsive/assets/img/checkbox_true.png" alt="true" class="check" />
+
+                </li>
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+                <li>
+
+                 <b>Interior Styling:</b>&nbsp;&nbsp;wood&nbsp;
+
+                </li>
+
+                
+
+				
+
+                
+
+                </ul>
+
+                <br style="clear: both;" />
+
+                				
+
+				                <h2>Kitchen Details</h2>
+
+                <ul class="amenities">
+
+                
+
+                
+
+                <li>
+
+                <b>Indoor</b>&nbsp;&nbsp;<img src="http://www.selected-turkey-greece.com/templates/bootstrap2-responsive/assets/img/checkbox_true.png" alt="true" class="check" />
+
+                </li>
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+                <li>
+
+                <b>Fully Equiped</b>&nbsp;&nbsp;<img src="http://www.selected-turkey-greece.com/templates/bootstrap2-responsive/assets/img/checkbox_true.png" alt="true" class="check" />
+
+                </li>
+
+                
+
+				
+
+				
+
+                
+
+                </ul>
+
+                <br style="clear: both;" />
+
+                				
+
+				                <h2>Cockpit</h2>
+
+                <ul class="amenities">
+
+                
+
+                
+
+                <li>
+
+                <b>Sun Cussions</b>&nbsp;&nbsp;<img src="http://www.selected-turkey-greece.com/templates/bootstrap2-responsive/assets/img/checkbox_true.png" alt="true" class="check" />
+
+                </li>
+
+                
+
+				
+
+				
+
+                
+
+                
+
+                <li>
+
+                <b>Sun Awning</b>&nbsp;&nbsp;<img src="http://www.selected-turkey-greece.com/templates/bootstrap2-responsive/assets/img/checkbox_true.png" alt="true" class="check" />
+
+                </li>
+
+                
+
+				
+
+				
+
+                
+
+                
+
+                <li>
+
+                <b>Table</b>&nbsp;&nbsp;<img src="http://www.selected-turkey-greece.com/templates/bootstrap2-responsive/assets/img/checkbox_true.png" alt="true" class="check" />
+
+                </li>
+
+                
+
+				
+
+				
+
+                
+
+                
+
+                <li>
+
+                <b>Chairs</b>&nbsp;&nbsp;<img src="http://www.selected-turkey-greece.com/templates/bootstrap2-responsive/assets/img/checkbox_true.png" alt="true" class="check" />
+
+                </li>
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                </ul>
+
+                <br style="clear: both;" />
+
+                				
+
+				                <h2>Deck</h2>
+
+                <ul class="amenities">
+
+                
+
+                
+
+                <li>
+
+                <b>Gangway</b>&nbsp;&nbsp;<img src="http://www.selected-turkey-greece.com/templates/bootstrap2-responsive/assets/img/checkbox_true.png" alt="true" class="check" />
+
+                </li>
+
+                
+
+				
+
+				
+
+                
+
+                
+
+                <li>
+
+                <b>Sea Ladder</b>&nbsp;&nbsp;<img src="http://www.selected-turkey-greece.com/templates/bootstrap2-responsive/assets/img/checkbox_true.png" alt="true" class="check" />
+
+                </li>
+
+                
+
+				
+
+				
+
+                
+
+                
+
+                <li>
+
+                <b>Sun Beds</b>&nbsp;&nbsp;<img src="http://www.selected-turkey-greece.com/templates/bootstrap2-responsive/assets/img/checkbox_true.png" alt="true" class="check" />
+
+                </li>
+
+                
+
+				
+
+				
+
+                
+
+                
+
+                <li>
+
+                <b>Sun Awning</b>&nbsp;&nbsp;<img src="http://www.selected-turkey-greece.com/templates/bootstrap2-responsive/assets/img/checkbox_true.png" alt="true" class="check" />
+
+                </li>
+
+                
+
+				
+
+				
+
+                
+
+                
+
+                <li>
+
+                <b>Deck Shower</b>&nbsp;&nbsp;<img src="http://www.selected-turkey-greece.com/templates/bootstrap2-responsive/assets/img/checkbox_true.png" alt="true" class="check" />
+
+                </li>
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                </ul>
+
+                <br style="clear: both;" />
+
+                				
+
+				                <h2>Rigging</h2>
+
+                <ul class="amenities">
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+                <li>
+
+                <b>Roller Genua</b>&nbsp;&nbsp;<img src="http://www.selected-turkey-greece.com/templates/bootstrap2-responsive/assets/img/checkbox_true.png" alt="true" class="check" />
+
+                </li>
+
+                
+
+				
+
+				
+
+                
+
+                </ul>
+
+                <br style="clear: both;" />
+
+                				
+
+				                <h2>Recretional Equipment</h2>
+
+                <ul class="amenities">
+
+                
+
+                
+
+				
+
+                <li>
+
+                 <b>Tender with Outboard Engine:</b>&nbsp;&nbsp;1&nbsp;
+
+                </li>
+
+                
+
+				
+
+                
+
+                
+
+				
+
+                <li>
+
+                 <b>Windsurf how many:</b>&nbsp;&nbsp;1&nbsp;
+
+                </li>
+
+                
+
+				
+
+                
+
+                
+
+				
+
+                <li>
+
+                 <b>Canoe how many:</b>&nbsp;&nbsp;1&nbsp;
+
+                </li>
+
+                
+
+				
+
+                
+
+                
+
+                <li>
+
+                <b>Small Fishing Gear</b>&nbsp;&nbsp;<img src="http://www.selected-turkey-greece.com/templates/bootstrap2-responsive/assets/img/checkbox_true.png" alt="true" class="check" />
+
+                </li>
+
+                
+
+				
+
+				
+
+                
+
+                
+
+                <li>
+
+                <b>Snorkels+Palms</b>&nbsp;&nbsp;<img src="http://www.selected-turkey-greece.com/templates/bootstrap2-responsive/assets/img/checkbox_true.png" alt="true" class="check" />
+
+                </li>
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                
+
+				
+
+				
+
+                
+
+                </ul>
+

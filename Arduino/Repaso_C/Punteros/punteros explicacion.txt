@@ -1,0 +1,66 @@
+Puntero
+--------
+
+1) Como variable unica y referencia de memoria 
+
+2) usarlo como vectores 
+
+int *v; --> no decimos el tamaño !!
+entonces usamos una metodo malloc para reservar espacio.
+reservar(n) y reserva un tamaño n del tipo que sea:int o float o String
+
+ó 
+
+int v[TAM];  ---> le decimos explicitamente el TAM
+
+
+valor en memoria 
+dirección memoria 
+
+A una funcion en vez de pasarle una variable, le paso la dirección 
+de memoria. 
+El saca el valor de la dirección-->puede operar con ese valor
+Y puede guardar el nuevo resultado en la direccion de memoria 
+Por eso puede ser void, no hace falta que me devuelva el resultado porque 
+al guardarlo en la direccion de memoria 
+
+La memoria es compartida por todas las funcion.
+
+
+
+
+Uso vector normal y no puntero 
+------------------------------
+
+void principal(){
+	int num = 5; 
+	int otro[TAM] = devuelvevect(num)
+	muestraVector(otro);
+}
+
+int *devuelvevect(int a){
+	int v[TAM] = leerVectorEntero(TAM);
+	for recorres v 
+		v[i] = v[i]*a
+	return v
+}
+
+2) Puntero usado como vector 
+----------------------------
+
+void principal(){
+	int num = 5; 
+	int *otro;
+	otro = reservar(TAM)
+	otro = LeerVectorEntero(TAM);
+	otro = devuelvect(otro, num)
+	muestraVector(otro);
+}
+
+int *devuelvect(int v[], int a){
+	for recorres v con tamaño TAM
+		v[i] = v[i]*a
+	return v
+}
+
+

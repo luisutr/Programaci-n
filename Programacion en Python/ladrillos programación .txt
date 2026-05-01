@@ -1,0 +1,29 @@
+liberias: (funciones ya creadas que puedo utilizar usando import o from .... import...)
+
+funciones:
+	variable de entrada / parametros de entrada
+	Salida
+		return variable
+		print(variable) 
+	llamadas entre funciones (divide y venceras)
+
+variables:
+	tipos de variables (int, str, float, boolean, list, dicc)
+	conversion de tipo 
+
+operadores:
+	matemáticos: +, -, /, *, %, //
+	asignacion: = 
+	comparación: <,><=,>=,!=,==
+	lógicos: AND, OR, NOT
+
+condiciones:
+	if
+	if,else
+	if, elif..., else
+
+bucles:
+	for (siempre tiene un incio y un final)
+		posicion
+		valor 
+	while (puede ser infito, depende de la condición)

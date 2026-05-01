@@ -1,0 +1,47 @@
+M  0 1 2 3
+   -------
+0| 1 2 3 4
+1| 5 6 7 8 
+2| 9 1 2 3
+3| 3 4 5 6
+
+Una i que va tomando valores de 0 a 3
+Diag.Prin M[i][i] 
+
+Una i que va tomando valores de 0 a 3
+	               
+	  (x,y) -->M[x+i][y+i]  len(M)=4
+Diag. (3,0) -->1 M[3][0]	  
+Diag. (1,0) -->3 M[1][0], M[2][1], M[3][2]
+Diag. (0,0) -->4 M[0][0], M[1][1], M[2][2], M[3][3]
+Diag. (0,1)    3
+Diag. (0,2) -->2 M[0][2], M[1][3]
+	  (2,0) -->2
+Diag. (0,3) -->1 M[0][3]
+
+Sabiendo x,y de la diagonal, ¿Cómo se cuantos valores de diagonal tengo que imprimir? el maximo de x,y menos len(M) no da ese valor
+
+def imprimir_diagonal(M,x,y):
+    diagonal=[]
+    long = len(M)-max(x,y)
+    for i in range(len(M)):
+        if long!=0:
+            diagonal.append(M[x+i][y+i])
+            long-=1
+    return diagonal
+
+print(imprimir_diagonal([[1,2,3,9],[4,5,6,4],[7,8,9,5],[2,3,4,5]],0,2))
+'''
+  0 1 2 3
+0[1,2,3,9],
+1[4,5,6,4],
+2[7,8,9,5],
+3[2,3,4,5]
+'''
+
+
+
+
+
+
+	

@@ -1,0 +1,52 @@
+int  --------> int() pasar a entero 
+
+float -------> float() pasar a decimal 
+ 
+string ------> str()  pasar a cadena 
+
+Ej:  v="1990" ---> ve = int(v) --> ve = 1990 en entro 
+	 v="0.5"
+
+Crea una función que recibe como argumento de entrada una valor tipo cadena. 
+Si el valor de este es "1990" o "2000", devuelve el mismo valor de la variable de entrada, 
+pero convertido a entero y le suma 1 
+En cualquier otro caso, la función devuelve el argumento de entrada sin modificar concatenado con " no es exacto"
+
+
+V = "hola998" 
+
+Se puede recorrer
+Tiene posiciones 
+Todos sus carateres son cadenas 
+
+
+Comó me muevo por un string: 
+V[0] == "h"
+V[1] == "o"
+V[2] == "l"
+V[3] == "a"
+V[4] == "5"
+V[5] OJO no Existe 
+V[-1] == "8"
+
+Crea una función que recibe un argumento de entrada tipo : "hola5" "hola2" .... 
+si el ultimo valor es par -- devuelve "par" y en cualquier otro caso "impar"
+
+Ayuda: calcular  if i%2 == 0  --> si cumple esta condición es par 
+
+Crea una función que recibe un argumento de entrada tipo cadea, 
+si la cadena contiene "enteros" al principio entonces convierte los ultimos 3 caracteres en int
+y si la cadena contiene "decimal" al principio entonces convierte los ultimos 3 caracteres en float
+la función devuelve esos dos ultiumos caracteres en el tipo de variable que toque 
+
+
+def funcion (variable):
+
+
+
+print(funcion("decimal0.5")
+print(funcion("enteros888")
+
+
+
+
